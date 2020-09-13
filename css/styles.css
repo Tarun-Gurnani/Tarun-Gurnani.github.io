@@ -10164,9 +10164,11 @@ header.masthead h1 {
  
 .portfolio_certificats {
 
-  width: 350px;
-   height: 280px;
-    border: 3px solid black;
+  width: 400px;
+  height: 200px;
+  border: 3px solid black;
+  text-align: center;
+  justify-content: center;
 }
 
 .text-white-75 {
