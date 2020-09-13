@@ -11235,3 +11235,14 @@ trainers
 .Words_section_image {
   height: 270px;
 }
+
+
+.container-flex {
+  max-width: 1335px;
+  margin: 0 auto;
+}
+.grid-row-flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
