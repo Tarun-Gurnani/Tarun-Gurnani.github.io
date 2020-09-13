@@ -54,6 +54,9 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+body {
+  overflow-x: hidden;
+}
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
@@ -11233,10 +11236,14 @@ trainers
 }
  
 .Words_section_image {
+  max-width: 350px;
   height: 270px;
 }
 
 
+.image-thumb{
+
+}
 .container-flex {
   max-width: 1335px;
   margin: 0 auto;
