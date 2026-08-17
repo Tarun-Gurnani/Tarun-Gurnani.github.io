@@ -93,3 +93,58 @@ footer{background:#040b14;color:#5f7388;font-size:10px;font-family:"DM Mono",mon
 .architecture-mini{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin-top:24px;padding-top:16px;border-top:1px solid var(--line);font:500 9px "DM Mono",monospace;color:#83a0b8;letter-spacing:.04em}
 .architecture-mini b{color:#5ecbff;font-size:12px}
 @media(max-width:650px){.snowflake-featured{grid-column:span 1}.hero-profile{width:68px;height:68px}}
+
+
+.outcome-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.outcome-card {
+  padding: 12px 9px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(255,255,255,.025);
+  text-align: left;
+}
+
+.outcome-card small {
+  display: block;
+  margin-bottom: 6px;
+  color: #5ecbff;
+  font: 500 8px "DM Mono", monospace;
+}
+
+.outcome-card b {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 10px;
+}
+
+.outcome-card span {
+  display: block;
+  color: #71869e;
+  font-size: 8px;
+  line-height: 1.4;
+}
+
+@media (max-width: 650px) {
+  .outcome-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+  }
+
+  .outcome-card {
+    padding: 9px 6px;
+  }
+
+  .outcome-card b {
+    font-size: 8px;
+  }
+
+  .outcome-card span {
+    font-size: 7px;
+  }
+}
